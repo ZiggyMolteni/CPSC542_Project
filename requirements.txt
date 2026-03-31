@@ -1,0 +1,16 @@
+# Core
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+pillow>=10.0
+tqdm>=4.66
+
+# Plotting (useful for EDA + write-up figures)
+matplotlib>=3.8
+seaborn>=0.13
+
+# Deep learning
+# Note: PyTorch wheels are platform-specific. This usually works on macOS with pip.
+# If pip has trouble resolving torch/torchvision on your machine, install via pytorch.org instructions.
+torch>=2.2
+torchvision>=0.17
