@@ -1,16 +1,11 @@
-# Core
-numpy>=1.24
-pandas>=2.0
-scikit-learn>=1.3
-pillow>=10.0
-tqdm>=4.66
+# CPSC 542 Assignment 2 pipeline (train + visualize)
+# Install: pip install -r requirements.txt
+# PyTorch: if the default wheel fails on your machine, use the selector at https://pytorch.org/get-started/locally/
 
-# Plotting (useful for EDA + write-up figures)
-matplotlib>=3.8
-seaborn>=0.13
-
-# Deep learning
-# Note: PyTorch wheels are platform-specific. This usually works on macOS with pip.
-# If pip has trouble resolving torch/torchvision on your machine, install via pytorch.org instructions.
-torch>=2.2
-torchvision>=0.17
+torch>=2.0
+torchvision>=0.15
+numpy>=1.20
+pandas>=1.3
+Pillow>=9.0
+matplotlib>=3.5
+scikit-learn>=1.0
